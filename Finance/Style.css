@@ -1,0 +1,227 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+#main{
+    width: 100vw;
+    min-height: 100vh;
+    scroll-behavior: smooth;
+}
+#nav{
+    width: 100vw;
+    height: 13vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    box-shadow: 1px 1px 7px 1px;
+    position: sticky;
+    top: 0;
+    background-color: rgba(22, 0, 0, 0.096);
+}
+.nf img{
+    width: 9vw;
+    height: 13vh;
+}
+.ns ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-right: 7vw;
+}
+.ns ul li a{
+    text-decoration: none;
+}
+.ns ul li button{
+    border-radius: 10%;
+    padding: 1vh;
+    border: none;
+}
+.ns ul li button a:hover{
+    color: white;
+}
+.ns ul li button:hover{
+    background-color: rgba(0, 0, 0, 0.404);
+}
+.ns ul li{
+    margin: 2vw;
+}
+
+
+#home{
+    width: 100vw;
+    height: 70vh;
+    border: 2px solid black;
+    background-image: url("https://github.com/harishpalsande9/Gym-Website-HTML-CSS-Bootstrap/blob/main/img/home-banner.jpg?raw=true");
+    background-repeat: no-repeat;
+   background-size: 100%;
+   opacity: 1;
+}
+.ht{
+    width: 30vw;
+    height: 35vh;
+    background-color: rgba(36, 2, 2, 0.062);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 7vw;
+    margin-left: 10vw;
+    color: white;
+}
+.ht button{
+    background-color: rgba(255, 68, 0, 0.836);
+    padding: 1vh;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ ul{
+    list-style: none;
+ }
+
+ #homes{
+    height: 55vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 2vh;
+    background-color: rgba(192, 192, 192, 0.459);
+ }
+ .hsf{
+    width: 40vw;
+    height: 55vh;
+ }
+ .hss{
+    width: 40vw;
+    height: 55vh;
+ }
+ .hss img{
+    width: 40vw;
+    height: 55vh;
+ }
+
+ #service{
+    width: 100vw;
+    height: 70vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 2vh;
+    background-image: url("https://github.com/harishpalsande9/Gym-Website-HTML-CSS-Bootstrap/blob/main/img/services-bg.jpg?raw=true");
+}
+.ss{
+    width: 25vw;
+    height: 60vh;
+    background-color: white;
+}
+.ss img{
+    height: 30vh;
+    width: 100%;
+    z-index: 500;
+    box-shadow: 1px 5px 5px 1px;
+    border-radius: 5px;
+}
+.hhh{
+    margin-left: 40vw;
+}
+
+
+#client{
+    width: 100vw;
+    height: 60vh;
+    margin-top: 1vh;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: rgba(192, 192, 192, 0.219);
+}
+.cltf{
+    width: 30vw;
+    height: 15vh;
+    border-radius: 5%;
+    display: flex;
+    box-shadow: 1px 5px 5px 1px;
+    background-color: rgba(255, 255, 255, 0.616);
+}
+.ccll{
+    margin-left: 40vw;
+}
+.cltf p{
+    margin-top: 4vh;
+}
+.cltf img{
+    width: 5vw;
+    border-radius: 50%;
+    z-index: 600;
+}
+#contect{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1vh;
+    background-image: url("https://github.com/harishpalsande9/Gym-Website-HTML-CSS-Bootstrap/blob/main/img/per6.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.cbf{
+    width: 30vw;
+    height: 36vh;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    box-shadow: 1px 5px 5px 1px;
+    background-color: white;
+}
+.cbf i{
+    font-size: 2vw;
+    color: orangered;
+    z-index: 400;
+    background-color: rgba(29, 2, 2, 0.041);
+}
+
+#about{
+    width: 100vw;
+    height: 50vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 1vh;
+    background-image: url("https://github.com/harishpalsande9/Gym-Website-HTML-CSS-Bootstrap/blob/main/img/per6.jpg?raw=true");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color: white;
+    opacity: 0.9;
+}
+.abtf{
+    width: 30vw;
+    height: 50vh;
+}
+.iii {
+    display: flex;
+    font-size: 2vw;
+}
+.iii li{
+    margin-left: 1vw;
+    cursor: pointer;
+}
+i{
+    cursor: pointer;
+}
+.abtf input{
+    color: white;
+    background-color: rgba(187, 173, 173, 0.897);
+}
+
+
+
+
+
